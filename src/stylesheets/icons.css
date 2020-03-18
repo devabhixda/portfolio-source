@@ -1,0 +1,29 @@
+.github{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.dribbble{
+    position: absolute;
+    bottom: 20px;
+    right: 80px;
+}
+
+.telegram{
+    position: absolute;
+    bottom: 20px;
+    right: 140px;
+}
+
+.twitter{
+    position: absolute;
+    bottom: 20px;
+    right: 200px;
+}
+
+.linkedin{
+    position: absolute;
+    bottom: 20px;
+    right: 260px;
+}

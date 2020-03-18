@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:regular,bold,italic&subset=latin,latin-ext');
+@font-face {
+    font-family: 'Raleway', cursive;
+    src: url('https://fonts.googleapis.com/css?family=Raleway')
+}
+
+.hello{
+    color: #395AA1;
+    font-size: 96px;
+    font-family: 'Raleway', cursive;
+    font-weight: 500;
+    margin-left: 200px;
+}
+
+.name{
+    color: white;
+    margin-left: 200px;
+    font-size: 96px;
+    font-family: 'Raleway', cursive;
+}
+
+.about{
+    color: white;
+    margin-left: 200px;
+    margin-top: 20px;
+    font-size: 28px;
+    font-family: 'Raleway', cursive;
+}

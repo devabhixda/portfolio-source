@@ -1,0 +1,21 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.loading {
+    position: absolute;
+    width: 50%;
+}
+
+.background{
+    position: fixed;
+    width: 40%;
+    height: 100%;
+}
+
+.logo{
+    margin-top: 40px;
+    width: 50%;
+    height: 50%;
+}
