@@ -1,23 +1,16 @@
 import React from 'react';
+import Social from './Social';
 
 //StyleSheets
 import './stylesheets/Home.css';
 import './stylesheets/fonts.css';
 import './stylesheets/images.css';
-import './stylesheets/icons.css';
-
-//Icons
-import {Icon} from '@iconify/react'; 
-import githubAlt from '@iconify/icons-uil/github-alt';
-import telegramAlt from '@iconify/icons-uil/telegram-alt';
-import dribbbleIcon from '@iconify/icons-uil/dribbble';
-import twitterAlt from '@iconify/icons-uil/twitter-alt';
-import linkedinAlt from '@iconify/icons-uil/linkedin-alt';
 
 //Images
 import bg from './images/bg.jpeg';
 import load from './images/loading.gif';
 import logo from './images/logo.svg';
+
 
 class Home extends React.Component {
     state = {
@@ -26,55 +19,43 @@ class Home extends React.Component {
 
     componentDidMount() {
         this.setState({ loading: true });
-        setTimeout(function(){
-            this.setState({loading:false});
-       }.bind(this),900);
+        setTimeout(function () {
+            this.setState({ loading: false });
+        }.bind(this), 900);
     }
+
     render() {
         const { loading } = this.state;
         if (loading) {
             return (
                 <div className="image-container">
-                    <img src={load} class="loading"/>
+                    <img src={load} className="loading" />
                 </div>
-
             )
         }
         return (
             <div>
                 <div className="split left">
-                    <div class="header">
-                        <img src={logo} class="logo"/>
+                    <div className="header">
+                        <a href="https://devabhi.tech">
+                            <img src={logo} className="logo" />
+                        </a>
                     </div>
-                    <div class="hello">
+                    <div className="hello">
                         Hello,
                     </div>
-                    <div class="name">
+                    <div className="name">
                         I'm
-                        <br/>
-                        Abhi Jain    
+                        <br />
+                        Abhi Jain
                     </div>
-                    <div class="about">
+                    <div className="about">
                         Developer, Designer and Photographer
                     </div>
                 </div>
                 <div className="split right">
-                    <img src={bg} class="background"/>
-                    <div class = "github">
-                        <Icon icon={githubAlt} style={{color: '#ffffff', fontSize: '30px'}} />
-                    </div>
-                    <div class="telegram">
-                        <Icon icon={telegramAlt} style={{color: '#ffffff', fontSize: '30px'}} />
-                    </div>
-                    <div class="dribbble">
-                        <Icon icon={dribbbleIcon} style={{color: '#ffffff', fontSize: '30px'}} />
-                    </div>
-                    <div class="twitter">
-                        <Icon icon={twitterAlt} style={{color: '#ffffff', fontSize: '30px'}} />
-                    </div>
-                    <div class="linkedin">
-                        <Icon icon={linkedinAlt} style={{color: '#ffffff', fontSize: '30px'}} />
-                    </div>
+                    <img src={bg} className="background" />
+                    <Social/>
                 </div>
             </div>
         )
