@@ -60,12 +60,22 @@ html, body, #root{
 }
 
 .intro{
-    height: 10%;
-    padding-top: 12%;
-    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+.social{
+    margin-top: 75%;
 }
 
 .header{
     height: 20%;
     width: 20%;
+}
+
+@media all and (max-device-width: 720px){
+    .intro{
+        height: 10%;
+        padding-top: 12%;
+        padding-bottom: 10%;
+    }
 }

@@ -72,7 +72,7 @@ class Home extends React.Component {
                                 Hello,
                             </div>
                             <div className="name">
-                                I'm Abhi Jain <span className="dot">.</span>
+                                I'm Abhi Jain<span className="dot">.</span>
                             </div>
                             <div className="about">
                                 Developer, Designer and Photographer
@@ -91,21 +91,24 @@ class Home extends React.Component {
                             <img src={logo} className="logo" />
                         </a>
                     </div>
-                    <div className="name">
-                        <span className="hello">Hello,</span> I'm
-                    </div>
-                    <div className="name">
-                        Abhi Jain<span className="dot">.</span>
-                    </div>
-
-                    <div className="about">
-                        Developer, Designer and Photographer
+                    <div className="intro">
+                        <div className="hello">
+                            Hello,
+                        </div>
+                        <div className="name">
+                            I'm Abhi Jain<span className="dot">.</span>
+                        </div>
+                        <div className="about">
+                            Developer, Designer and Photographer
+                        </div>
                     </div>
                 </div>
                 <div className="right">
                     <img src={bg} className="background" />
                     <Navigation />
-                    <Social />
+                    <div className="social">
+                        <Social />
+                    </div>
                 </div>
             </div>
         )
