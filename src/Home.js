@@ -12,6 +12,8 @@ import bg from './images/bg.jpeg';
 import load from './images/loading.gif';
 import logo from './images/logo.svg';
 
+import { Icon } from '@iconify/react';
+import menuIcon from '@iconify/icons-dashicons/menu';
 
 class Home extends React.Component {
     constructor(props) {
@@ -43,6 +45,7 @@ class Home extends React.Component {
 
     render() {
         const { loading } = this.state;
+        const isPhone = this.state.isPhone;
         if (loading) {
             return (
                 <div className="image-container">
@@ -50,27 +53,56 @@ class Home extends React.Component {
                 </div>
             )
         }
+        if (isPhone) {
+            return (
+                <div className="root">
+                    <div className="top">
+                        <img src={bg} className="mbackground" />
+                        <a href="https://devabhi.tech">
+                            <img src={logo} className="mlogo" />
+                        </a>
+                        <div className="hamburger">
+                            <Icon icon={menuIcon} style={{ color: '#ffffff', fontSize: '40px' }} />
+                        </div>
+
+                    </div>
+                    <div className="bottom">
+                        <div className="intro">
+                            <div className="hello">
+                                Hello,
+                            </div>
+                            <div className="name">
+                                I'm Abhi Jain <span className="dot">.</span>
+                            </div>
+                            <div className="about">
+                                Developer, Designer and Photographer
+                            </div>
+                        </div>
+                        <Social />
+                    </div>
+                </div>
+            )
+        }
         return (
             <div>
-                <div className="split left">
+                <div className="left">
                     <div className="header">
                         <a href="https://devabhi.tech">
                             <img src={logo} className="logo" />
                         </a>
                     </div>
-                    <div className="hello">
-                        Hello,
+                    <div className="name">
+                        <span className="hello">Hello,</span> I'm
                     </div>
                     <div className="name">
-                        I'm
-                        <br />
-                        Abhi Jain
+                        Abhi Jain<span className="dot">.</span>
                     </div>
+
                     <div className="about">
                         Developer, Designer and Photographer
                     </div>
                 </div>
-                <div className="split right">
+                <div className="right">
                     <img src={bg} className="background" />
                     <Navigation />
                     <Social />

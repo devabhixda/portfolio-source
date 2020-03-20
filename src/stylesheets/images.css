@@ -14,8 +14,27 @@
     height: 100%;
 }
 
+.mbackground{
+    position: fixed;
+    width: 100%;
+}
+
 .logo{
     margin-top: 30px;
     width: 50%;
     height: 50%;
+}
+
+.mlogo{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 5%;
+    width: 10%;
+    height: 10%;
+}
+
+.hamburger{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 85%;
 }
