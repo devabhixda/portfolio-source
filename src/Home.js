@@ -14,15 +14,31 @@ import logo from './images/logo.svg';
 
 
 class Home extends React.Component {
-    state = {
-        loading: false
-    };
+    constructor(props) {
+        super(props);
+        this.state = {
+            isPhone: false,
+            loading: false
+        };
+
+        this.updatePredicate = this.updatePredicate.bind(this);
+    }
 
     componentDidMount() {
         this.setState({ loading: true });
         setTimeout(function () {
             this.setState({ loading: false });
         }.bind(this), 900);
+        this.updatePredicate();
+        window.addEventListener("resize", this.updatePredicate);
+    }
+
+    updatePredicate() {
+        this.setState({ isPhone: window.innerWidth < 800 });
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener("resize", this.updatePredicate);
     }
 
     render() {
