@@ -1,5 +1,6 @@
 import React from 'react';
 import Social from './Social';
+import Navigation from './Navigation';
 
 //StyleSheets
 import './stylesheets/Home.css';
@@ -55,7 +56,8 @@ class Home extends React.Component {
                 </div>
                 <div className="split right">
                     <img src={bg} className="background" />
-                    <Social/>
+                    <Navigation />
+                    <Social />
                 </div>
             </div>
         )
