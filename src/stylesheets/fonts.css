@@ -5,30 +5,60 @@
 }
 
 .hello{
-    color: #395AA1;
-    font-size: 96px;
-    font-family: 'Raleway', cursive;
+    font-family: Raleway;
+    font-style: normal;
     font-weight: 500;
-    margin-left: 200px;
+    font-size: 96px;
+    line-height: 131%;
+    text-align: center;
+    color: #457BEE;
 }
 
 .name{
-    color: white;
-    margin-left: 200px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
     font-size: 96px;
-    font-family: 'Raleway', cursive;
+    line-height: 131%;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .about{
-    color: white;
-    margin-left: 200px;
-    margin-top: 20px;
-    font-size: 28px;
-    font-family: 'Raleway', cursive;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 281%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.dot{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 131%;
+    text-align: center;
+    color: #457BEE;
 }
 
 .nav{
     color: white;
     font-size: 18px;
-    font-family: 'Raleway', cursive;
+    font-family: 'Poppins', cursive;
+}
+
+@media all and (max-device-width: 720px){
+    .hello{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .name{
+        font-size: 32px;
+    }
+    .about{
+        font-size: 16px;
+    }
 }
