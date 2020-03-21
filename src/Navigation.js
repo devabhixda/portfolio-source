@@ -6,17 +6,17 @@ class Navigation extends React.Component{
                 <div className="navigation flex">
                     <button className="button">
                         <div className="nav">
-                            About
+                            WORK
                         </div>
                     </button>
                     <button className="button">
                         <div className="nav">
-                            Work
+                            ABOUT
                         </div>
                     </button>
                     <button className="button">
                         <div className="nav">
-                            Contact
+                            CONTACT
                         </div>
                     </button>
                 </div>
