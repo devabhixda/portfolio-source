@@ -8,7 +8,7 @@ import './stylesheets/fonts.css';
 import './stylesheets/images.css';
 
 //Images
-import bg from './images/bg.jpeg';
+import bg from './images/bg.jpg';
 import load from './images/loading.gif';
 import logo from './images/logo.svg';
 
