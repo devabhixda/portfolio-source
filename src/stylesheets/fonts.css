@@ -3,33 +3,35 @@
     font-family: 'Raleway', cursive;
     src: url('https://fonts.googleapis.com/css?family=Raleway')
 }
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 .hello{
     font-family: Raleway;
     font-style: normal;
-    font-weight: 500;
-    font-size: 96px;
-    line-height: 131%;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 141%;
+    /* or 141% */
     text-align: center;
     color: #457BEE;
 }
 
 .name{
-    font-family: Raleway;
+    font-family: Poppins;
     font-style: normal;
-    font-weight: 500;
-    font-size: 96px;
-    line-height: 131%;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 141%;
     text-align: center;
     color: #FFFFFF;
 }
 
 .about{
-    font-family: Raleway;
+    font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
-    line-height: 281%;
+    font-size: 30px;
+    line-height: 300%;
     text-align: center;
     color: #FFFFFF;
 }
@@ -46,8 +48,22 @@
 
 .nav{
     color: white;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
     font-size: 18px;
-    font-family: 'Poppins', cursive;
+    line-height: 36px;
+    text-align: center;
+}
+
+.hire {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 250%;
+    color: #FFFFFF;
+    /* identical to box height, or 250% */
 }
 
 @media all and (max-device-width: 720px){
