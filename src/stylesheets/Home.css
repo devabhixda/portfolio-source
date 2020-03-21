@@ -10,7 +10,7 @@ html, body, #root{
 
 .left {
     height: 100%;
-    width: 60%;
+    width: 45%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -24,7 +24,7 @@ html, body, #root{
   
 .right {
     height: 100%;
-    width: 40%;
+    width: 55%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -64,7 +64,7 @@ html, body, #root{
 }
 
 .social{
-    margin-top: 75%;
+    margin-top: 43%;
 }
 
 .header{

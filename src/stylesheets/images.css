@@ -10,7 +10,7 @@
 
 .background{
     position: fixed;
-    width: 40%;
+    width: 55%;
     height: 100%;
 }
 
@@ -21,6 +21,7 @@
 
 .logo{
     margin-top: 30px;
+    margin-left: 10px;
     width: 50%;
     height: 50%;
 }
