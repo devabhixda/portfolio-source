@@ -6,6 +6,8 @@ import Navigation from './Navigation';
 import './stylesheets/Home.css';
 import './stylesheets/fonts.css';
 import './stylesheets/images.css';
+import './stylesheets/icons.css';
+import './stylesheets/buttons.css';
 
 //Images
 import bg from './images/bg.jpg';

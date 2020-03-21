@@ -1,10 +1,5 @@
 import React from 'react';
 
-//StyleSheet
-import './stylesheets/icons.css';
-import './stylesheets/buttons.css';
-import './stylesheets/fonts.css';
-
 //Icons
 import { Icon } from '@iconify/react';
 import githubAlt from '@iconify/icons-uil/github-alt';
@@ -19,19 +14,19 @@ class Social extends React.Component {
             <div className="root">
                 <div className="container flex">
                     <a href="https://github.com/devabhixda">
-                        <Icon icon={githubAlt} style={{ color: '#ffffff', fontSize: '30px' }} />
+                            <Icon icon={githubAlt} className="icon"/>
                     </a>
                     <a href="https://t.me/devabhi">
-                        <Icon icon={telegramAlt} style={{ color: '#ffffff', fontSize: '30px' }} />
+                        <Icon icon={telegramAlt} className="icon"/>
                     </a>
                     <a href="https://dribbble.com/devabhixda">
-                        <Icon icon={dribbbleIcon} style={{ color: '#ffffff', fontSize: '30px' }} />
+                        <Icon icon={dribbbleIcon} className="icon"/>
                     </a>
                     <a href="https://twitter.com/devabhixda">
-                        <Icon icon={twitterAlt} style={{ color: '#ffffff', fontSize: '30px' }} />
+                        <Icon icon={twitterAlt} className="icon"/>
                     </a>
                     <a href="https://www.linkedin.com/in/abhi-jain">
-                        <Icon icon={linkedinAlt} style={{ color: '#ffffff', fontSize: '30px' }} />
+                        <Icon icon={linkedinAlt} className="icon"/>
                     </a>
                 </div>
             </div>
