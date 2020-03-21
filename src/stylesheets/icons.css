@@ -17,3 +17,10 @@
     font-size: 40px;
     color: white;
 }
+
+.next {
+    font-size: 30px;
+    align-self: center;
+    margin-left: 20px;
+    color: white;
+}

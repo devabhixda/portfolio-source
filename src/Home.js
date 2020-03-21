@@ -16,6 +16,7 @@ import logo from './images/logo.svg';
 
 import { Icon } from '@iconify/react';
 import menuIcon from '@iconify/icons-dashicons/menu';
+import arrowCircleRight from '@iconify/icons-cil/arrow-circle-right';
 
 class Home extends React.Component {
     constructor(props) {
@@ -101,7 +102,13 @@ class Home extends React.Component {
                             I'm Abhi Jain<span className="dot">.</span>
                         </div>
                         <div className="about">
-                            Developer, Designer and Photographer
+                            Developer, shutterbug & collaborator
+                        </div>
+                        <div className="hireme">
+                            <div className="hire">
+                            Hire Me
+                            </div>
+                            <Icon icon={arrowCircleRight} className="next" />
                         </div>
                     </div>
                 </div>
