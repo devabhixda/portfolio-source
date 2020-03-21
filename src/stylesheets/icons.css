@@ -24,3 +24,9 @@
     margin-left: 20px;
     color: white;
 }
+
+@media all and (max-device-width: 720px){
+    .icon {
+        font-size: 30px;
+    }
+}
