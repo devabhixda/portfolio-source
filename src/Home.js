@@ -1,6 +1,5 @@
 import React from 'react';
 import Social from './Social';
-import Navigation from './Navigation';
 
 //StyleSheets
 import './stylesheets/Home.css';
@@ -45,7 +44,15 @@ class Home extends React.Component {
     componentWillUnmount() {
         window.removeEventListener("resize", this.updatePredicate);
     }
-
+    work(){
+        this.props.history.push('/work');
+    }
+    contact(){
+        this.props.history.push('/contact');
+    }
+    about(){
+        this.props.history.push('/about');
+    }
     render() {
         const { loading } = this.state;
         const isPhone = this.state.isPhone;
@@ -106,7 +113,7 @@ class Home extends React.Component {
                         </div>
                         <div className="hireme">
                             <div className="hire">
-                            Hire Me
+                                Hire Me
                             </div>
                             <Icon icon={arrowCircleRight} className="next" />
                         </div>
@@ -114,7 +121,23 @@ class Home extends React.Component {
                 </div>
                 <div className="right">
                     <img src={bg} className="background" />
-                    <Navigation />
+                    <div className="navigation flex">
+                        <button className="button" onClick={this.work.bind(this)}>
+                            <div className="nav">
+                                WORK
+                        </div>
+                        </button>
+                        <button className="button" onClick={this.about.bind(this)}>
+                            <div className="nav">
+                                ABOUT
+                        </div>
+                        </button>
+                        <button className="button">
+                            <div className="nav" onClick={this.contact.bind(this)}>
+                                CONTACT
+                        </div>
+                        </button>
+                    </div>
                     <div className="social">
                         <Social />
                     </div>
