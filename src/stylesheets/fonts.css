@@ -66,6 +66,45 @@
     /* identical to box height, or 250% */
 }
 
+.edu{
+    margin-left: 25%    ;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 200%;
+    color: #FFFFFF;
+}
+
+.course{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.insti{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 6%;
+    font-size: 18px;
+    line-height: 200%;
+    color: #FFFFFF;
+}
+
+.year{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 6%;
+    font-size: 15px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
 @media all and (max-device-width: 720px){
     .hello{
         font-size: 32px;
