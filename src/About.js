@@ -1,12 +1,10 @@
 import React from 'react';
 import logo from './images/logo.svg';
 import about from './images/about.png';
-import mabout from './images/mabout.png';
 import rect from './images/rect.svg';
 import bullets from './images/bullets.svg';
-import { Icon } from '@iconify/react';
-import menuIcon from '@iconify/icons-dashicons/menu';
 import './stylesheets/about.css';
+import Mheader from './Mheader';
 
 class About extends React.Component {
     constructor(props) {
@@ -34,13 +32,7 @@ class About extends React.Component {
             return (
                 <div className="root">
                     <div className="atop">
-                        <a href="https://devabhi.tech">
-                            <img src={logo} className="mlogo" />
-                        </a>
-                        <div className="hamburger">
-                            <Icon icon={menuIcon} style={{ color: '#ffffff', fontSize: '40px' }} />
-                        </div>
-
+                        <Mheader />
                     </div>
                     <div className="abottom">
                     <img src={rect} className="rect" />

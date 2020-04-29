@@ -7,6 +7,7 @@ import { Icon } from '@iconify/react';
 import menuIcon from '@iconify/icons-dashicons/menu';
 
 import './stylesheets/work.css';
+import Mheader from './Mheader';
 
 class Work extends React.Component {
     constructor(props) {
@@ -33,12 +34,7 @@ class Work extends React.Component {
         if (isPhone) {
             return (
                 <div className="mpage">
-                    <a href="https://devabhi.tech">
-                        <img src={logo} className="mlogo" />
-                    </a>
-                    <div className="hamburger">
-                        <Icon icon={menuIcon} style={{ color: '#ffffff', fontSize: '40px' }} />
-                    </div>
+                    <Mheader />
                     <img src={rects} className="rects" />
                     <div className="work">
                         Work

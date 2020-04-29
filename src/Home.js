@@ -16,6 +16,7 @@ import logo from './images/logo.svg';
 import { Icon } from '@iconify/react';
 import menuIcon from '@iconify/icons-dashicons/menu';
 import arrowCircleRight from '@iconify/icons-cil/arrow-circle-right';
+import Mheader from './Mheader';
 
 class Home extends React.Component {
     constructor(props) {
@@ -68,13 +69,7 @@ class Home extends React.Component {
                 <div className="root">
                     <div className="top">
                         <img src={bg} className="mbackground" />
-                        <a href="https://devabhi.tech">
-                            <img src={logo} className="mlogo" />
-                        </a>
-                        <div className="hamburger">
-                            <Icon icon={menuIcon} style={{ color: '#ffffff', fontSize: '40px' }} />
-                        </div>
-
+                        <Mheader />
                     </div>
                     <div className="bottom">
                         <div className="intro">
