@@ -1,0 +1,36 @@
+.side-drawer {
+    height: 32%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+  
+.side-drawer.open {
+    transform: translateX(0);
+}
+
+.smenu{
+    width: 100%;
+}
+
+a:link, a:visited {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.sb{
+    margin-top: 5%;
+    margin-left: 35%;
+}
+
+.navicon{
+    position: absolute;
+    font-size: 25px;
+    padding-top: 5px;
+    margin-left: 30%;
+}

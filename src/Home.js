@@ -14,7 +14,6 @@ import load from './images/loading.gif';
 import logo from './images/logo.svg';
 
 import { Icon } from '@iconify/react';
-import menuIcon from '@iconify/icons-dashicons/menu';
 import arrowCircleRight from '@iconify/icons-cil/arrow-circle-right';
 import Mheader from './Mheader';
 

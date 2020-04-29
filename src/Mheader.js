@@ -1,17 +1,47 @@
 import React from 'react';
-import { Icon } from '@iconify/react';
-import menuIcon from '@iconify/icons-dashicons/menu';
+import HamburgerMenu from 'react-hamburger-menu';
 import logo from './images/logo.svg';
+import SideDrawer from './sideDrawer';
 
 class Mheader extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            open: false,
+        };
+    }
+    handleClick() {
+        this.setState({
+            open: !this.state.open,
+
+        });
+    }
     render() {
+        let sideDrawer
+
+        if (this.state.open) {
+            sideDrawer = <SideDrawer />
+        }
         return (
             <div>
+                <div className="smenu">
+                    {sideDrawer}
+                </div>
                 <a href="https://devabhi.tech">
                     <img src={logo} className="mlogo" />
                 </a>
                 <div className="hamburger">
-                    <Icon icon={menuIcon} style={{ color: '#ffffff', fontSize: '40px' }} />
+                    <HamburgerMenu
+                        isOpen={this.state.open}
+                        menuClicked={this.handleClick.bind(this)}
+                        width={20}
+                        height={15}
+                        strokeWidth={2.5}
+                        rotate={0}
+                        color='white'
+                        borderRadius={1}
+                        animationDuration={0.5}
+                    />
                 </div>
             </div>
         )
