@@ -162,4 +162,18 @@
     .time{
         margin-left: 6%;
     }
+    .edu{
+        margin-left: 10%;
+    }
+    .course{
+        font-size: 20px;
+    }
+    .insti{
+        font-size: 15px;
+        margin-left: 7.5%;
+    }
+    .year{
+        margin-left: 7.5%;
+        font-size: 12px;
+    }
 }
