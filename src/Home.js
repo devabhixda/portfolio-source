@@ -16,6 +16,7 @@ import logo from './images/logo.svg';
 import { Icon } from '@iconify/react';
 import arrowCircleRight from '@iconify/icons-cil/arrow-circle-right';
 import Mheader from './Mheader';
+import { Link } from 'react-router-dom';
 
 class Home extends React.Component {
     constructor(props) {
@@ -43,15 +44,6 @@ class Home extends React.Component {
 
     componentWillUnmount() {
         window.removeEventListener("resize", this.updatePredicate);
-    }
-    work(){
-        this.props.history.push('/work');
-    }
-    contact(){
-        this.props.history.push('/contact');
-    }
-    about(){
-        this.props.history.push('/about');
     }
     render() {
         const { loading } = this.state;
@@ -116,21 +108,27 @@ class Home extends React.Component {
                 <div className="right">
                     <img src={bg} className="background" />
                     <div className="navigation flex">
-                        <button className="button" onClick={this.work.bind(this)}>
-                            <div className="nav">
-                                WORK
-                        </div>
-                        </button>
-                        <button className="button" onClick={this.about.bind(this)}>
-                            <div className="nav">
-                                ABOUT
-                        </div>
-                        </button>
-                        <button className="button">
-                            <div className="nav" onClick={this.contact.bind(this)}>
-                                CONTACT
-                        </div>
-                        </button>
+                        <Link to="/work">
+                            <button className="button">
+                                <div className="nav">
+                                    WORK
+                                </div>
+                            </button>
+                        </Link>
+                        <Link to="/about">
+                            <button className="button">
+                                <div className="nav">
+                                    ABOUT
+                                </div>
+                            </button>
+                        </Link>
+                        <Link to="/contact">
+                            <button className="button">
+                                <div className="nav">
+                                    CONTACT
+                                </div>
+                            </button>
+                        </Link>
                     </div>
                     <div className="social">
                         <Social />

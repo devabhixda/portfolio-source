@@ -1,7 +1,7 @@
 import React from 'react';
 import HamburgerMenu from 'react-hamburger-menu';
 import logo from './images/logo.svg';
-import SideDrawer from './sideDrawer';
+import Sidedrawer from './Sidedrawer';
 
 class Mheader extends React.Component {
     constructor(props) {
@@ -20,7 +20,7 @@ class Mheader extends React.Component {
         let sideDrawer
 
         if (this.state.open) {
-            sideDrawer = <SideDrawer />
+            sideDrawer = <Sidedrawer />
         }
         return (
             <div>

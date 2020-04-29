@@ -6,7 +6,7 @@ import bookmarkIcon from '@iconify/icons-uil/bookmark';
 import messageIcon from '@iconify/icons-uil/message';
 
 import './stylesheets/menu.css';
-class sideDrawer extends React.Component {
+class Sidedrawer extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -57,4 +57,4 @@ class sideDrawer extends React.Component {
     )
   }
 }
-export default sideDrawer
+export default Sidedrawer

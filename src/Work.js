@@ -3,9 +3,6 @@ import logo from './images/logo.svg';
 import rects from './images/rects.svg';
 import bullets from './images/bullets.svg';
 
-import { Icon } from '@iconify/react';
-import menuIcon from '@iconify/icons-dashicons/menu';
-
 import './stylesheets/work.css';
 import Mheader from './Mheader';
 
