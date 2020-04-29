@@ -12,6 +12,18 @@
     padding: 0 !important;
 }
 
+.mpage {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    left: 0;
+    background-image: url('../images/mWork.png');
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 .rects{
     z-index: 2;
     margin-top: 8%;
@@ -30,4 +42,15 @@
 .bt{
     width: 1.5%;
     margin-right: 1.5%;
+}
+@media all and (max-device-width: 720px){
+    .rects{
+        padding-top: 28%;
+    }
+    .bts{
+        margin-bottom: 25%;
+    }
+    .bt{
+        width: 4%;
+    }
 }
