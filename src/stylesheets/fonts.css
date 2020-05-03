@@ -203,23 +203,37 @@
         font-size: 22px;
     }
     .pow{
-        margin-left: 6%;
+        margin-left: 4%;
     }
     .time{
-        margin-left: 6%;
+        margin-left: 4%;
     }
     .edu{
-        margin-left: 10%;
+        margin-left: 15%;
     }
     .course{
-        font-size: 20px;
+        font-size: 24px;
     }
     .insti{
-        font-size: 15px;
+        font-size: 18px;
+        margin-left: 6%;
+    }
+    .year{
+        margin-left: 6%;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px){
+    .course{
+        font-size: 24px;
+    }
+    .insti{
+        font-size: 18px;
         margin-left: 7.5%;
     }
     .year{
         margin-left: 7.5%;
-        font-size: 12px;
+        font-size: 14px;
     }
 }

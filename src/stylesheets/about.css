@@ -80,7 +80,7 @@
     height: 120%;
 }
 
-@media all and (max-device-width: 720px){
+@media only screen and (min-width: 0px) and (max-width: 479px){
     .rect{
         margin-top: 15%;
         margin-left: 10%;
@@ -88,5 +88,50 @@
     .bullets{
         margin-bottom: 20%;
         margin-left: 10%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .rect{
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+    .bullets{
+        margin-bottom: 15%;
+        margin-left: 15%;
+    }
+    .atop {
+        height: 35%;
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+        background-image: url('../images/tabout.png');
+        padding-top: 20px;
+        margin: 0 !important;
+        padding: 0 !important;
+        background-repeat:no-repeat; 
+    }
+    .abottom {
+        height: 65%;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        overflow-x: hidden;
+        background-color: black;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px){
+    .rect{
+        margin-top: 20%;
+        margin-left: 15%;
+    }
+    .bullets{
+        margin-bottom: 20%;
+        margin-left: 15%;
     }
 }
