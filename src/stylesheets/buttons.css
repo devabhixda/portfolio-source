@@ -27,7 +27,7 @@
     flex-direction: row;
     padding: 0px 24px;
     position: absolute;
-    width: 30%;
+    width: 25%;
     height: 10%;
     top: 70%;
     left: 20%;
@@ -38,4 +38,32 @@
     order: 1;
     align-self: center;
     margin: 0px 100px;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .navigation {
+        position: absolute;
+        top: 10%;
+        height: 15em;
+        width: 0%;
+        margin-left: 12%;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px){
+    .hireme{
+        width: 30%;
+        left: 13%;
+    }
+    .navigation {
+        position: absolute;
+        top: 10%;
+        height: 15em;
+        width: 80%;
+        margin-left: 12%;
+        justify-content: space-between;
+        align-content: space-between;
+    }
 }

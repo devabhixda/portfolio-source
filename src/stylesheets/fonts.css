@@ -154,7 +154,7 @@
 }
 
 
-@media all and (max-device-width: 720px){
+@media only screen and (min-width: 0px) and (max-width: 479px){
     .hello{
         font-size: 32px;
         font-weight: 600;
@@ -164,6 +164,43 @@
     }
     .about{
         font-size: 16px;
+    }
+    .pow{
+        margin-left: 6%;
+    }
+    .time{
+        margin-left: 6%;
+    }
+    .edu{
+        margin-left: 10%;
+    }
+    .course{
+        font-size: 20px;
+    }
+    .insti{
+        font-size: 15px;
+        margin-left: 7.5%;
+    }
+    .year{
+        margin-left: 7.5%;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px){
+    .hello{
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .name{
+        font-size: 40px;
+    }
+    .about{
+        font-size: 20px;
+    }
+    .hire{
+        padding-top: 5px;
+        font-size: 22px;
     }
     .pow{
         margin-left: 6%;

@@ -1,5 +1,6 @@
 import React from 'react';
 import Social from './Social';
+import Mheader from './Mheader';
 
 //StyleSheets
 import './stylesheets/Home.css';
@@ -10,12 +11,8 @@ import './stylesheets/buttons.css';
 
 //Images
 import bg from './images/bg.jpg';
-import load from './images/loading.gif';
 import logo from './images/logo.svg';
 
-import { Icon } from '@iconify/react';
-import arrowCircleRight from '@iconify/icons-cil/arrow-circle-right';
-import Mheader from './Mheader';
 import { Link } from 'react-router-dom';
 
 class Home extends React.Component {
@@ -96,12 +93,11 @@ class Home extends React.Component {
                         <div className="about">
                             Developer, shutterbug & collaborator
                         </div>
-                        <div className="hireme">
-                            <div className="hire">
-                                Hire Me
-                            </div>
-                            <Icon icon={arrowCircleRight} className="next" />
-                        </div>
+                            <a href = "https://www.upwork.com/o/profiles/users/~01669d93df1bb5305b/?s=996364627857502209" className="hireme">
+                                <div className="hire">
+                                    Hire Me
+                                </div>
+                            </a>
                     </div>
                 </div>
                 <div className="right">
