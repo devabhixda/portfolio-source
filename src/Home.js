@@ -51,7 +51,6 @@ class Home extends React.Component {
         if (loading) {
             return (
                 <div className="image-container">
-                    <img src={load} className="loading" />
                 </div>
             )
         }
@@ -79,7 +78,7 @@ class Home extends React.Component {
                 </div>
             )
         }
-        return (
+        else return (
             <div>
                 <div className="left">
                     <div className="header">
