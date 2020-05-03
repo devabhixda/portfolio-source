@@ -4,6 +4,7 @@ import homeAlt from '@iconify/icons-uil/home-alt';
 import bagIcon from '@iconify/icons-uil/bag';
 import bookmarkIcon from '@iconify/icons-uil/bookmark';
 import messageIcon from '@iconify/icons-uil/message';
+import { Link } from 'react-router-dom';
 
 import './stylesheets/menu.css';
 class Sidedrawer extends React.Component {
@@ -14,44 +15,44 @@ class Sidedrawer extends React.Component {
     return (
       <div className="side-drawer">
         <div className="sb">
-          <a href="/">
+          <Link to ="/">
             <div className="navicon">
               <Icon icon={homeAlt} />
             </div>
             <div className="mnav">
               HOME
             </div>
-          </a>
+          </Link>
         </div>
         <div className="sb">
-          <a href="/work">
+          <Link to ="/work">
             <div className="navicon">
               <Icon icon={bagIcon} />
             </div>
             <div className="mnav">
               WORK
             </div>
-          </a>
+          </Link>
         </div>
         <div className="sb">
-          <a href="/about">
+          <Link to ="/about">
             <div className="navicon">
               <Icon icon={bookmarkIcon} />
             </div>
             <div className="mnav">
               ABOUT
             </div>
-          </a>
+          </Link>
         </div>
         <div className="sb">
-          <a href="/contact">
+          <Link to ="/contact">
             <div className="navicon">
               <Icon icon={messageIcon} />
             </div>
             <div className="mnav">
               CONTACT
             </div>
-          </a>
+          </Link>
         </div>
       </div>
     )
