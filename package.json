@@ -1,5 +1,5 @@
 {
-  "homepage": "https://devabhixda.github.io/portfolio",
+  "homepage": "https://devabhi.tech",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -23,7 +23,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "clear": "gh-pages-clean"
   },
   "eslintConfig": {
     "extends": "react-app"
