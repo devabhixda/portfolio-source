@@ -15,7 +15,7 @@ class Sidedrawer extends React.Component {
     return (
       <div className="side-drawer">
         <div className="sb">
-          <Link to ="/">
+          <Link to="/">
             <div className="navicon">
               <Icon icon={homeAlt} />
             </div>
@@ -25,7 +25,7 @@ class Sidedrawer extends React.Component {
           </Link>
         </div>
         <div className="sb">
-          <Link to ="/work">
+          <Link to="/work">
             <div className="navicon">
               <Icon icon={bagIcon} />
             </div>
@@ -35,7 +35,7 @@ class Sidedrawer extends React.Component {
           </Link>
         </div>
         <div className="sb">
-          <Link to ="/about">
+          <Link to="/about">
             <div className="navicon">
               <Icon icon={bookmarkIcon} />
             </div>
@@ -45,7 +45,7 @@ class Sidedrawer extends React.Component {
           </Link>
         </div>
         <div className="sb">
-          <Link to ="/contact">
+          <Link to="/contact">
             <div className="navicon">
               <Icon icon={messageIcon} />
             </div>
@@ -54,6 +54,11 @@ class Sidedrawer extends React.Component {
             </div>
           </Link>
         </div>
+        <a href="https://www.upwork.com/o/profiles/users/~01669d93df1bb5305b/?s=996364627857502209" className="hireme">
+          <div className="hire">
+            Hire Me
+          </div>
+        </a>
       </div>
     )
   }
