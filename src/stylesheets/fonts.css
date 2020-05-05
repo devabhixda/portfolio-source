@@ -6,12 +6,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 .hello{
-    font-family: Raleway;
+    font-family: Poppins;
     font-style: normal;
     font-weight: 600;
-    font-size: 64px;
-    line-height: 141%;
-    /* or 141% */
+    font-size: 8vh;
     text-align: center;
     color: #457BEE;
 }
@@ -20,8 +18,7 @@
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
-    font-size: 64px;
-    line-height: 141%;
+    font-size: 8vh;
     text-align: center;
     color: #FFFFFF;
 }
@@ -30,8 +27,8 @@
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
-    line-height: 300%;
+    font-size: 4vh;
+    margin-top: 6vh;
     text-align: center;
     color: #FFFFFF;
 }
@@ -40,8 +37,7 @@
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
-    line-height: 131%;
+    font-size: 4vh;
     text-align: center;
     color: #457BEE;
 }
@@ -69,8 +65,7 @@
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 28px;
-    line-height: 250%;
+    font-size: 1.5vw;
     color: #FFFFFF;
     /* identical to box height, or 250% */
 }
@@ -153,87 +148,15 @@
     color: #FFFFFF;
 }
 
-
-@media only screen and (min-width: 0px) and (max-width: 479px){
+@media only screen and (max-width: 1025px){
     .hello{
-        font-size: 32px;
-        font-weight: 600;
+        font-size: 4vh;
     }
     .name{
-        font-size: 32px;
+        font-size: 4vh;
     }
     .about{
-        font-size: 16px;
-    }
-    .pow{
-        margin-left: 6%;
-    }
-    .time{
-        margin-left: 6%;
-    }
-    .edu{
-        margin-left: 10%;
-    }
-    .course{
-        font-size: 20px;
-    }
-    .insti{
-        font-size: 15px;
-        margin-left: 7.5%;
-    }
-    .year{
-        margin-left: 7.5%;
-        font-size: 12px;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1199px){
-    .hello{
-        font-size: 50px;
-        font-weight: 600;
-    }
-    .name{
-        font-size: 40px;
-    }
-    .about{
-        font-size: 20px;
-    }
-    .hire{
-        padding-top: 5px;
-        font-size: 22px;
-    }
-    .pow{
-        margin-left: 4%;
-    }
-    .time{
-        margin-left: 4%;
-    }
-    .edu{
-        margin-left: 15%;
-    }
-    .course{
-        font-size: 24px;
-    }
-    .insti{
-        font-size: 18px;
-        margin-left: 6%;
-    }
-    .year{
-        margin-left: 6%;
-        font-size: 14px;
-    }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1199px){
-    .course{
-        font-size: 24px;
-    }
-    .insti{
-        font-size: 18px;
-        margin-left: 7.5%;
-    }
-    .year{
-        margin-left: 7.5%;
-        font-size: 14px;
+        font-size: 2vh;
+        margin-top: 2vh;
     }
 }

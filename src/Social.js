@@ -14,19 +14,29 @@ class Social extends React.Component {
             <div className="root">
                 <div className="container flex">
                     <a href="https://github.com/devabhixda">
+                        <div className="icont">
                             <Icon icon={githubAlt} className="icon"/>
+                        </div>
                     </a>
                     <a href="https://t.me/devabhi">
-                        <Icon icon={telegramAlt} className="icon"/>
+                        <div className="icont">
+                            <Icon icon={telegramAlt} className="icon"/>
+                        </div>
                     </a>
                     <a href="https://dribbble.com/devabhixda">
-                        <Icon icon={dribbbleIcon} className="icon"/>
+                        <div className="icont">
+                            <Icon icon={dribbbleIcon} className="icon"/>
+                        </div>
                     </a>
                     <a href="https://twitter.com/devabhixda">
-                        <Icon icon={twitterAlt} className="icon"/>
+                        <div className="icont">
+                            <Icon icon={twitterAlt} className="icon"/>
+                        </div>
                     </a>
                     <a href="https://www.linkedin.com/in/abhi-jain">
-                        <Icon icon={linkedinAlt} className="icon"/>
+                        <div className="icont">
+                            <Icon icon={linkedinAlt} className="icon"/>
+                        </div>
                     </a>
                 </div>
             </div>

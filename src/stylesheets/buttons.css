@@ -2,68 +2,37 @@
     background: rgba(0, 0, 0, 0.3);
     border: none;
     color: white;
-    padding: 8px 30px;
+    padding: 1vh 2vw 1vh 2vw;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 4px 2px;
     cursor: pointer;
     box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 12px
+    border-radius: 12px;
 }
-
+.navbtn{
+    width: 15vw;
+}
 .navigation {
     position: absolute;
     top: 10%;
-    height: 15em;
-    width: 60%;
-    margin-left: 20%;
-    justify-content: space-between;
-    align-content: space-between;
+    right: -32%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .hireme {
     display: flex;
     flex-direction: row;
-    padding: 0px 24px;
     position: absolute;
-    width: 25%;
-    height: 10%;
-    top: 70%;
-    left: 20%;
+    padding: 1vh 2vw 1vh 2vw;
+    top: 75vh;
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
     flex: none;
-    order: 1;
-    align-self: center;
-    margin: 0px 100px;
-}
-
-@media only screen and (min-width: 480px) and (max-width: 767px){
-    .navigation {
-        position: absolute;
-        top: 10%;
-        height: 15em;
-        width: 0%;
-        margin-left: 12%;
-        justify-content: space-between;
-        align-content: space-between;
-    }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1199px){
-    .hireme{
-        width: 30%;
-        left: 13%;
-    }
-    .navigation {
-        position: absolute;
-        top: 10%;
-        height: 15em;
-        width: 80%;
-        margin-left: 12%;
-        justify-content: space-between;
-        align-content: space-between;
-    }
+    top: 80%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }

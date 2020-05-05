@@ -36,7 +36,7 @@ class Home extends React.Component {
     }
 
     updatePredicate() {
-        this.setState({ isPhone: window.innerWidth < 800 });
+        this.setState({ isPhone: window.innerWidth < 1025 });
     }
 
     componentWillUnmount() {
@@ -55,7 +55,6 @@ class Home extends React.Component {
             return (
                 <div className="root">
                     <div className="top">
-                        <img src={bg} className="mbackground" />
                         <Mheader />
                     </div>
                     <div className="bottom">
@@ -104,25 +103,31 @@ class Home extends React.Component {
                     <img src={bg} className="background" />
                     <div className="navigation flex">
                         <Link to="/work">
-                            <button className="button">
-                                <div className="nav">
-                                    WORK
-                                </div>
-                            </button>
+                            <div className="navbtn">
+                                <button className="button">
+                                    <div className="nav">
+                                        WORK
+                                    </div>
+                                </button>
+                            </div>
                         </Link>
                         <Link to="/about">
-                            <button className="button">
-                                <div className="nav">
-                                    ABOUT
-                                </div>
-                            </button>
+                            <div className="navbtn">
+                                <button className="button">
+                                    <div className="nav">
+                                        ABOUT
+                                    </div>
+                                </button>
+                            </div>
                         </Link>
                         <Link to="/contact">
-                            <button className="button">
-                                <div className="nav">
-                                    CONTACT
-                                </div>
-                            </button>
+                            <div className="navbtn">
+                                <button className="button">
+                                    <div className="nav">
+                                        CONTACT
+                                    </div>
+                                </button>
+                            </div>
                         </Link>
                     </div>
                     <div className="social">
