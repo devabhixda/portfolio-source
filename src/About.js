@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from './images/logo.svg';
-import about from './images/about.png';
 import rect from './images/rect.svg';
 import bullets from './images/bullets.svg';
 import './stylesheets/about.css';
@@ -20,7 +19,7 @@ class About extends React.Component {
     }
 
     updatePredicate() {
-        this.setState({ isPhone: window.innerWidth < 800 });
+        this.setState({ isPhone: window.innerWidth < 1025 });
     }
 
     componentWillUnmount() {
@@ -76,7 +75,6 @@ class About extends React.Component {
         return (
             <div>
                 <div className="aleft">
-                    <img src={about} className="abackground" />
                     <div className="aheader">
                         <a href="https://devabhi.tech">
                             <img src={logo} className="logo" />

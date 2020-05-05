@@ -8,6 +8,8 @@
     padding-top: 20px;
     left: 0;
     background-color: black; 
+    background-image: url('../images/about.png');
+    background-size: 45vw 100vh;
     margin: 0 !important;
     padding: 0 !important;
 }
@@ -33,6 +35,7 @@
     top: 0;
     overflow-x: hidden;
     background-image: url('../images/mabout.png');
+    background-size: 100vw 30vh;
     padding-top: 20px;
     margin: 0 !important;
     padding: 0 !important;
@@ -49,12 +52,6 @@
     padding: 0 !important;
 }
 
-.abackground{
-    z-index: 1;
-    position: fixed;
-    height: 100%;
-}
-
 .aheader{
     z-index: 2;
     position: absolute;
@@ -63,75 +60,30 @@
 }
 
 .rect{
-    margin-top: 20%;
-    margin-left: 25%;
-    height: 2%;
+    margin-top: 20vh;
+    margin-left: 15vw;
+    height: 2vh;
 }
 
 .bullets{
-    margin-left: 25%;
-    height: 2%;
-    margin-bottom: 10%;
-    margin-top: 2%;
+    margin-left: 15vw;
+    height: 2vh;
+    margin-bottom: 20vh;
+    margin-top: 2vh;
 }
 
 .bullet{
-    margin-right: 3.6%;
-    height: 120%;
+    height: 2.5vh;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 479px){
+@media all and (max-device-width: 1025px){
     .rect{
-        margin-top: 15%;
-        margin-left: 10%;
+        margin-top: 10vh;
     }
     .bullets{
-        margin-bottom: 20%;
-        margin-left: 10%;
+        margin-bottom: 10vh;
     }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1023px){
-    .rect{
-        margin-top: 10%;
-        margin-left: 15%;
-    }
-    .bullets{
-        margin-bottom: 15%;
-        margin-left: 15%;
-    }
-    .atop {
-        height: 35%;
-        width: 100%;
-        position: absolute;
-        z-index: 1;
-        top: 0;
-        overflow-x: hidden;
-        background-image: url('../images/tabout.png');
-        padding-top: 20px;
-        margin: 0 !important;
-        padding: 0 !important;
-        background-repeat:no-repeat; 
-    }
-    .abottom {
-        height: 65%;
-        width: 100%;
-        position: fixed;
-        bottom: 0;
-        overflow-x: hidden;
-        background-color: black;
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1199px){
-    .rect{
-        margin-top: 20%;
-        margin-left: 15%;
-    }
-    .bullets{
-        margin-bottom: 20%;
-        margin-left: 15%;
+    .bullet{
+        height: 2vh;
     }
 }

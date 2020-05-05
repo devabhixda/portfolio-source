@@ -71,12 +71,11 @@
 }
 
 .edu{
-    margin-left: 25%;
+    margin-left: 15vw;
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
-    line-height: 200%;
+    font-size: 5vh;
     color: #FFFFFF;
 }
 
@@ -84,8 +83,8 @@
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 100%;
+    font-size: 4vh;
+    margin-left: 0.75vw;
     color: #FFFFFF;
 }
 
@@ -94,8 +93,8 @@
     font-style: normal;
     font-weight: normal;
     margin-left: 6%;
-    font-size: 18px;
-    line-height: 200%;
+    font-size: 3vh;
+    margin-left: 2vw;
     color: #FFFFFF;
 }
 
@@ -103,9 +102,8 @@
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    margin-left: 6%;
-    font-size: 15px;
-    line-height: 150%;
+    margin-left: 2vw;
+    font-size: 2vh;
     color: #FFFFFF;
 }
 
@@ -156,6 +154,18 @@
     .about{
         font-size: 2vh;
         margin-top: 2vh;
+    }
+    .course{
+        font-size: 2.5vh;
+        margin-left: 2vw;
+    }
+    .insti{
+        font-size: 1.5vh;
+        margin-left: 6vw;
+    }
+    .year{
+        font-size: 1vh;
+        margin-left: 6vw;
     }
     .title{
         font-size: 3vh;

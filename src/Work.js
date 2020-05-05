@@ -20,7 +20,7 @@ class Work extends React.Component {
     }
 
     updatePredicate() {
-        this.setState({ isPhone: window.innerWidth < 800 });
+        this.setState({ isPhone: window.innerWidth < 1025 });
     }
 
     componentWillUnmount() {
