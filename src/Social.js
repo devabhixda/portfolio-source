@@ -1,9 +1,9 @@
 import React from 'react';
 
 //Icons
-import { Icon } from '@iconify/react';
+import { Icon, InlineIcon } from '@iconify/react';
 import githubAlt from '@iconify/icons-uil/github-alt';
-import telegramAlt from '@iconify/icons-uil/telegram-alt';
+import roundMailOutline from '@iconify/icons-ic/round-mail-outline';
 import dribbbleIcon from '@iconify/icons-uil/dribbble';
 import twitterAlt from '@iconify/icons-uil/twitter-alt';
 import linkedinAlt from '@iconify/icons-uil/linkedin-alt';
@@ -18,9 +18,9 @@ class Social extends React.Component {
                             <Icon icon={githubAlt} className="icon"/>
                         </div>
                     </a>
-                    <a href="https://t.me/devabhi">
+                    <a href="mailto:abhiachal.jain@gmail.com">
                         <div className="icont">
-                            <Icon icon={telegramAlt} className="icon"/>
+                            <Icon icon={roundMailOutline} className="icon" />
                         </div>
                     </a>
                     <a href="https://dribbble.com/devabhixda">
