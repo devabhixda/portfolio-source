@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import * as EmailValidator from 'email-validator';
 
 import mail from './images/mail.png';
 import './stylesheets/contact.css';
@@ -31,22 +32,26 @@ class Contact extends Component {
         const name = document.getElementById('name').value;
         const email = document.getElementById('email').value;
         const message = document.getElementById('message').value;
-        axios({
-            method: "POST",
-            url: "https://portfolioemailer.herokuapp.com/send",
-            data: {
-                name: name,
-                email: email,
-                message: message
-            }
-        }).then((response) => {
-            if (response.data.msg === 'success') {
-                alert("Message Sent.");
-                this.resetForm()
-            } else if (response.data.msg === 'fail') {
-                alert("Message failed to send.")
-            }
-        })
+        if(EmailValidator.validate(email) && name.length>5 && message.length>10) {
+            axios({
+                method: "POST",
+                url: "https://portfolioemailer.herokuapp.com/send",
+                data: {
+                    name: name,
+                    email: email,
+                    message: message
+                }
+            }).then((response) => {
+                if (response.data.msg === 'success') {
+                    alert("Message Sent.");
+                    this.resetForm()
+                } else if (response.data.msg === 'fail') {
+                    alert("Message failed to send.")
+                }
+            })
+        } else {
+            alert("Invalid entries, please check again");
+        }
     }
 
     resetForm() {
