@@ -54,9 +54,8 @@ class Home extends React.Component {
         if (isPhone) {
             return (
                 <div className="root">
-                    <div className="top">
-                        <Mheader />
-                    </div>
+                    <Mheader />
+                    <div className="top" />
                     <div className="bottom">
                         <div className="intro">
                             <div className="hello">
