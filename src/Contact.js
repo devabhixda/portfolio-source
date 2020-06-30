@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 import * as EmailValidator from 'email-validator';
 
 import mail from './images/mail.png';
@@ -7,11 +6,21 @@ import './stylesheets/contact.css';
 import logo from './images/logo.svg';
 import Mheader from './Mheader';
 
+const encode = (data) => {
+    console.log(data);
+  return Object.keys(data)
+      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .join("&");
+}
+
 class Contact extends Component {
     constructor(props) {
         super(props);
         this.state = {
             isPhone: false,
+            name: "", 
+            email: "", 
+            message: "" 
         };
         this.updatePredicate = this.updatePredicate.bind(this);
     }
@@ -27,39 +36,26 @@ class Contact extends Component {
     componentWillUnmount() {
         window.removeEventListener("resize", this.updatePredicate);
     }
-    handleSubmit(e) {
-        e.preventDefault();
-        const name = document.getElementById('name').value;
-        const email = document.getElementById('email').value;
-        const message = document.getElementById('message').value;
-        if(EmailValidator.validate(email) && name.length>5 && message.length>10) {
-            axios({
+    handleSubmit = e => {
+        if(EmailValidator.validate(this.state.email) && this.state.name.length>5 && this.state.message.length>10) {
+            fetch("/", {
                 method: "POST",
-                url: "https://portfolioemailer.herokuapp.com/send",
-                data: {
-                    name: name,
-                    email: email,
-                    message: message
-                }
-            }).then((response) => {
-                if (response.data.msg === 'success') {
-                    alert("Message Sent.");
-                    this.resetForm()
-                } else if (response.data.msg === 'fail') {
-                    alert("Message failed to send.")
-                }
-            })
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: encode({ "form-name": "contact", name: this.state.name, email: this.state.email, message: this.state.message })
+              })
+              .then(() => alert("Success!"))
+              .catch(error => alert(error));
+              e.preventDefault();
         } else {
-            alert("Invalid entries, please check again");
+            alert("Invalid input")
         }
-    }
-
-    resetForm() {
-        document.getElementById('contact-form').reset();
-    }
+    };
+  
+    handleChange = e => this.setState({ [e.target.id]: e.target.value });
 
     render() {
         const isPhone = this.state.isPhone;
+        const { name, email, message } = this.state;
         return (
             <div className="bg-contact100">
                 {isPhone ?
@@ -75,18 +71,18 @@ class Contact extends Component {
                         <div class="contact100-pic js-tilt" data-tilt>
                             <img src={mail} alt="IMG" />
                         </div>
-                        <form class="contact100-form" id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+                        <form class="contact100-form" id="contact-form" onSubmit={this.handleSubmit} method="POST">
                             <span class="contact100-form-title">
                                 Get in touch
 					        </span>
                             <div class="wrap-input100">
-                                <input class="input100" type="text" id="name" placeholder="Name" />
+                                <input class="input100" type="text" id="name" value={name} onChange={this.handleChange} />
                             </div>
                             <div class="wrap-input100">
-                                <input class="input100" type="text" id="email" placeholder="Email" />
+                                <input class="input100" type="text" id="email" value={email} onChange={this.handleChange} />
                             </div>
                             <div class="wrap-input100">
-                                <textarea class="input100" type="text" id="message" placeholder="Message"/>
+                                <textarea class="input100" type="text" id="message" value={message} onChange={this.handleChange}/>
                             </div>
                             <div class="container-contact100-form-btn">
                                 <button class="contact100-form-btn">
