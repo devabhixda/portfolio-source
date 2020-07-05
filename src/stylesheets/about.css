@@ -8,7 +8,7 @@
     padding-top: 20px;
     left: 0;
     background-color: black; 
-    background-image: url('../images/about.png');
+    background-image: url('../images/about.jpg');
     background-size: 45vw 100vh;
     margin: 0 !important;
     padding: 0 !important;
@@ -34,7 +34,7 @@
     z-index: 1;
     top: 0;
     overflow-x: hidden;
-    background-image: url('../images/mabout.png');
+    background-image: url('../images/mabout.jpg');
     background-size: 100vw 30vh;
     padding-top: 20px;
     margin: 0 !important;
