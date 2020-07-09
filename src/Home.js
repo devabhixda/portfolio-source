@@ -30,7 +30,7 @@ class Home extends React.Component {
         this.setState({ loading: true });
         setTimeout(function () {
             this.setState({ loading: false });
-        }.bind(this), 900);
+        }.bind(this), 1500);
         this.updatePredicate();
         window.addEventListener("resize", this.updatePredicate);
     }
@@ -48,6 +48,19 @@ class Home extends React.Component {
         if (loading) {
             return (
                 <div className="image-container">
+                    <div id="preload">
+                        <img src="../images/about.jpg" />
+                        <img src="../images/bg.jpg" />
+                        <img src="../images/bgcon.jpg" />
+                        <img src="../images/bullets.svg" />
+                        <img src="../images/logo.svg" />
+                        <img src="../images/mabout.jpg" />
+                        <img src="../images/mail.png" />
+                        <img src="../images/mWork.png" />
+                        <img src="../images/rect.svg" />
+                        <img src="../images/rects.svg" />
+                        <img src="../images/Work.png" />
+                        </div>
                 </div>
             )
         }

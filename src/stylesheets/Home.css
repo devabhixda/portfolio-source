@@ -6,6 +6,10 @@ html, body, #root{
     background-color: black;
 }
 
+div#preload {
+    display: none;
+}
+
 /*Sections*/
 
 .left {
