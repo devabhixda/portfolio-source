@@ -79,7 +79,7 @@ class Contact extends Component {
                         <div class="contact100-pic js-tilt" data-tilt>
                             <img src={mail} alt="IMG" />
                         </div>
-                        <form class="contact100-form" id="contact-form" onSubmit={this.handleSubmit} method="POST">
+                        <form class="contact100-form" id="contact-form">
                             <span class="contact100-form-title">
                                 Get in touch
 					        </span>
@@ -93,7 +93,7 @@ class Contact extends Component {
                                 <textarea class="input100" type="text" id="message" value={message} onChange={this.handleChange}/>
                             </div>
                             <div class="container-contact100-form-btn">
-                                <button class="contact100-form-btn">
+                                <button class="contact100-form-btn" onClick={this.handleSubmit}>
                                     Send
 						        </button>
                             </div>
