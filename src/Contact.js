@@ -37,7 +37,8 @@ class Contact extends Component {
         window.removeEventListener("resize", this.updatePredicate);
     }
     handleSubmit = e => {
-        if(EmailValidator.validate(this.state.email) && this.state.name.length>5 && this.state.message.length>10) {
+        let remText = this.state.message.replace(/\s/g, "");
+        if(EmailValidator.validate(this.state.email) && this.state.name.length>5 && remText.length>10) {
             fetch("/", {
                 method: "POST",
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
