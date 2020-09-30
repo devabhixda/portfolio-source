@@ -84,13 +84,13 @@ class Contact extends Component {
                                 Get in touch
 					        </span>
                             <div class="wrap-input100">
-                                <input class="input100" type="text" id="name" value={name} onChange={this.handleChange} />
+                                <input class="input100" type="text" id="name" value={name} onChange={this.handleChange} placeholder="Name"/>
                             </div>
                             <div class="wrap-input100">
-                                <input class="input100" type="text" id="email" value={email} onChange={this.handleChange} />
+                                <input class="input100" type="text" id="email" value={email} onChange={this.handleChange} placeholder="Email"/>
                             </div>
                             <div class="wrap-input100">
-                                <textarea class="input100" type="text" id="message" value={message} onChange={this.handleChange}/>
+                                <textarea class="input100" type="text" id="message" value={message} onChange={this.handleChange} placeholder="Message"/>
                             </div>
                             <div class="container-contact100-form-btn">
                                 <button class="contact100-form-btn" onClick={this.handleSubmit}>
