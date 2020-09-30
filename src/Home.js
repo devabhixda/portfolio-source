@@ -90,7 +90,7 @@ class Home extends React.Component {
             <div>
                 <div className="left">
                     <div className="header">
-                        <a href="https://devabhi.tech">
+                        <a href="https://devabhi.codes">
                             <img src={logo} className="logo" />
                         </a>
                     </div>

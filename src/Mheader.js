@@ -27,7 +27,7 @@ class Mheader extends React.Component {
                 <div className="smenu">
                     {sideDrawer}
                 </div>
-                <a href="https://devabhi.tech">
+                <a href="https://devabhi.codes">
                     <img src={logo} className="mlogo" />
                 </a>
                 <div className="hamburger">

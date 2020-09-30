@@ -73,7 +73,7 @@ class Work extends React.Component {
             <div>
                 <div className="page">
                     <div className="aheader">
-                        <a href="https://devabhi.tech">
+                        <a href="https://devabhi.codes">
                             <img src={logo} className="logo" />
                         </a>
                     </div>
