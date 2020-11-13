@@ -1,0 +1,61 @@
+.page {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  left: 0;
+  background-image: url('../images/Projects.png');
+  background-size: 100vw 100vh;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.mpage {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  left: 0;
+  background-image: url('../images/mProjects.png');
+  background-size: 100vw 100vh;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.prects{
+  z-index: 2;
+  margin-top: 10vh;
+  margin-left: 15vw;
+  height: 2%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-top: 0;
+  padding-left: 4vw;
+  text-align: center;
+}
+
+.project-image {
+  height: 30vh;
+  padding-top: 4vh;
+}
+
+@media all and (max-device-width: 1025px){
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 0;
+    padding-left: 4vw;
+    text-align: center;
+  }
+  .project-image {
+    height: 20vh;
+    padding-top: 4vh;
+  }
+}

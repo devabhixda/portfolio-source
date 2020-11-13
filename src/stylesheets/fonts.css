@@ -149,6 +149,25 @@
     font-size: 4vh;
     color: #FFFFFF;
 }
+
+.project{
+    margin-left: 15vw;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5vh;
+    margin-bottom: 2vh;
+    color: #FFFFFF;
+}
+
+.proj{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3vh;
+    color: #FFFFFF;
+}
+
 @media only screen and (max-width: 1025px){
     .hello{
         font-size: 4vh;
@@ -185,5 +204,8 @@
     }
     .hire{
         font-size: 4vw;
+    }
+    .proj{
+        font-size: 3vw;
     }
 }
