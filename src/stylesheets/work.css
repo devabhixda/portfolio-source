@@ -1,54 +1,59 @@
-.page {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-    left: 0;
-    background-image: url('../images/Work.png');
-    background-size: 100vw 100vh;
-    margin: 0 !important;
-    padding: 0 !important;
+.wbackground{
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
-.mpage {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    overflow-x: hidden;
-    left: 0;
-    background-image: url('../images/mWork.png');
-    background-size: 100vw 100vh;
-    margin: 0 !important;
-    padding: 0 !important;
+.wtop {
+  height: 30%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  background-image: url('../images/mWorkEx.png');
+  background-size: 100vw 30vh;
+  padding-top: 20px;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-.rects{
-    z-index: 2;
-    margin-top: 20vh;
-    margin-left: 10vw;
-    height: 2%;
+.wbottom {
+  height: 85%;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  overflow-x: hidden;
+  background-color: black;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-.bts{
-    z-index: 2;
-    margin-left: 10vw;
-    height: 1vh;
-    margin-top: 1vh;
-    margin-bottom: 20vh;
+.wmtop {
+  height: 40%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  background-image: url('../images/mWork.jpg');
+  background-size: 100vw 40vh;
+  padding-top: 20px;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-.bt{
-    width: 3vh;
-}
-@media all and (max-device-width: 1025px){
-    .bts{
-        margin-bottom: 15vh;
-    }
-    .bt{
-        width: 2vh;
-    }
+.wmbottom {
+  height: 60%;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  overflow-x: hidden;
+  background-color: black;
+  margin: 0 !important;
+  padding: 0 !important;
 }
