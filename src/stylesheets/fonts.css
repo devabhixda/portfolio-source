@@ -141,6 +141,14 @@
     color: #FFFFFF;
 }
 
+.workex{
+    margin-left: 10vw;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4vh;
+    color: #FFFFFF;
+}
 @media only screen and (max-width: 1025px){
     .hello{
         font-size: 4vh;

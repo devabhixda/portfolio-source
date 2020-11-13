@@ -1,0 +1,55 @@
+.rects{
+    z-index: 2;
+    margin-top: 20vh;
+    margin-left: 10vw;
+    height: 2%;
+}
+
+.bts{
+    z-index: 2;
+    margin-left: 10vw;
+    height: 1vh;
+    margin-top: 1vh;
+    margin-bottom: 15vh;
+}
+
+.bt{
+    width: 3vh;
+}
+@media all and (max-device-width: 1025px){
+    .bts{
+        margin-bottom: 15vh;
+    }
+    .bt{
+        width: 2vh;
+    }
+}
+
+.wright {
+    height: 100%;
+    width: 55%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    right: 0;
+    background-color: black; 
+    background-image: url('../images/WorkEx.png');
+    background-size: 55vw 100vh;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+  
+.wleft {
+    height: 100%;
+    width: 45%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    left: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+}

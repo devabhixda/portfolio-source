@@ -36,3 +36,33 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+.works {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding: 1vh 0vw 1vh 0vw;
+    width: 15vw;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    flex: none;
+    left: 75%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.mworks {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding: 1vh 0vw 1vh 0vw;
+    width: 40vw;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    flex: none;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
