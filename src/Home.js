@@ -10,7 +10,7 @@ import './stylesheets/icons.css';
 import './stylesheets/buttons.css';
 
 //Images
-import bg from './images/bg.jpg';
+import bg from './images/bg.webp';
 import logo from './images/logo.svg';
 
 import { Link } from 'react-router-dom';
@@ -49,18 +49,29 @@ class Home extends React.Component {
             return (
                 <div className="image-container">
                     <div id="preload">
-                        <img src="../images/about.jpg" />
-                        <img src="../images/bg.jpg" />
-                        <img src="../images/bgcon.jpg" />
+                        <img src="../images/about.webp" />
+                        <img src="../images/bg.webp" />
+                        <img src="../images/bgcon.webp" />
                         <img src="../images/bullets.svg" />
+                        <img src="../images/loading.gif" />
                         <img src="../images/logo.svg" />
-                        <img src="../images/mabout.jpg" />
-                        <img src="../images/mail.png" />
-                        <img src="../images/mWork.png" />
+                        <img src="../images/mabout.webp" />
+                        <img src="../images/mail.webp" />
+                        <img src="../images/mProjects.webp" />
+                        <img src="../images/mWork.webp" />
+                        <img src="../images/mWorkEx.webp" />
+                        <img src="../images/Projects.webp" />
                         <img src="../images/rect.svg" />
                         <img src="../images/rects.svg" />
-                        <img src="../images/Work.png" />
-                        </div>
+                        <img src="../images/Work.webp" />
+                        <img src="../images/WorkEx.webp" />
+                        <img src="../images/proj/calc.png" />
+                        <img src="../images/proj/clock.png" />
+                        <img src="../images/proj/coronout.png" />
+                        <img src="../images/proj/emoup.png" />
+                        <img src="../images/proj/ozone.png" />
+                        <img src="../images/proj/resume.png" />
+                    </div>
                 </div>
             )
         }

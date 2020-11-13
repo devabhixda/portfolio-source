@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import './stylesheets/work.css';
 
 //Images
-import bg from './images/Work.jpg';
+import bg from './images/Work.webp';
 import logo from './images/logo.svg';
 class Work extends React.Component {
     constructor(props) {

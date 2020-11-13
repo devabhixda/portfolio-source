@@ -15,7 +15,7 @@
   z-index: 1;
   top: 0;
   overflow-x: hidden;
-  background-image: url('../images/mWorkEx.png');
+  background-image: url('../images/mWorkEx.webp');
   background-size: 100vw 30vh;
   padding-top: 20px;
   margin: 0 !important;
@@ -40,7 +40,7 @@
   z-index: 1;
   top: 0;
   overflow-x: hidden;
-  background-image: url('../images/mWork.jpg');
+  background-image: url('../images/mWork.webp');
   background-size: 100vw 40vh;
   padding-top: 20px;
   margin: 0 !important;

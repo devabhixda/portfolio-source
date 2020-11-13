@@ -7,7 +7,7 @@
   overflow-x: hidden;
   padding-top: 20px;
   left: 0;
-  background-image: url('../images/Projects.png');
+  background-image: url('../images/Projects.webp');
   background-size: 100vw 100vh;
   margin: 0 !important;
   padding: 0 !important;
@@ -20,7 +20,7 @@
   z-index: 1;
   overflow-x: hidden;
   left: 0;
-  background-image: url('../images/mProjects.png');
+  background-image: url('../images/mProjects.webp');
   background-size: 100vw 100vh;
   margin: 0 !important;
   padding: 0 !important;

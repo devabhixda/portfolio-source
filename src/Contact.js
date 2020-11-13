@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import * as EmailValidator from 'email-validator';
 
-import mail from './images/mail.png';
+import mail from './images/mail.webp';
 import './stylesheets/contact.css';
 import logo from './images/logo.svg';
 import Mheader from './Mheader';
