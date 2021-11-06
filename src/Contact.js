@@ -69,7 +69,7 @@ class Contact extends Component {
                 {isPhone ?
                     <Mheader /> :
                     <div className="aheader">
-                        <a href="https://devabhi.codes">
+                        <a href="https://devabhi.tech">
                             <img src={logo} className="logo" />
                         </a>
                     </div>

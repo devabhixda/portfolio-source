@@ -87,7 +87,7 @@ class WorkEx extends React.Component {
             <div>
                 <div className="wleft">
                     <div className="aheader">
-                        <a href="https://devabhi.codes">
+                        <a href="https://devabhi.tech">
                             <img src={logo} className="logo" />
                         </a>
                     </div>

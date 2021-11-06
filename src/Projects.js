@@ -39,7 +39,7 @@ class Projects extends React.Component {
             <div>
                 <div className="page">
                     <div className="aheader">
-                        <a href="https://devabhi.codes">
+                        <a href="https://devabhi.tech">
                             <img src={logo} className="logo" />
                         </a>
                     </div>
