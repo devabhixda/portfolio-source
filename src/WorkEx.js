@@ -51,12 +51,22 @@ class WorkEx extends React.Component {
                         </div>
                         <div className="bullets">
                             <img src={bullets} className="bullet" />
-                            <span className="course">Full Stack Mobile Developer</span>
+                            <span className="course">Technical Lead</span>
                             <div className="insti">
-                                Saffron IT Systems
+                                RobotBanao
                             </div>
                             <div className="year">
-                                Oct 2020 - Present
+                                Sept 2021 - Oct 2021
+                            </div>
+                        </div>
+                        <div className="bullets">
+                            <img src={bullets} className="bullet" />
+                            <span className="course">Summer Analyst</span>
+                            <div className="insti">
+                                Goldman Sachs
+                            </div>
+                            <div className="year">
+                                May 2021 - July 2021
                             </div>
                         </div>
                         <div className="bullets">
@@ -107,12 +117,22 @@ class WorkEx extends React.Component {
                     </div>
                     <div className="bts">
                         <img src={bullets} className="bt" />
-                        <span className="title">Full Stack Mobile Developer</span>
+                        <span className="title">Technical Lead</span>
                         <div className="pow">
-                            Saffron IT Systems
+                            Goldman Sachs
                         </div>
                         <div className="time">
-                            Oct 2020 - Present
+                            May 2021 - July 2021
+                        </div>
+                    </div>
+                    <div className="bts">
+                        <img src={bullets} className="bt" />
+                        <span className="title">Summer Analyst</span>
+                        <div className="pow">
+                            RobotBanao
+                        </div>
+                        <div className="time">
+                            Sept 2021 - Oct 2021
                         </div>
                     </div>
                     <div className="bts">
