@@ -54,11 +54,6 @@ class Sidedrawer extends React.Component {
             </div>
           </Link>
         </div>
-        <a href="https://www.upwork.com/o/profiles/users/~01669d93df1bb5305b/?s=996364627857502209" className="hireme">
-          <div className="hire">
-            Hire Me
-          </div>
-        </a>
       </div>
     )
   }

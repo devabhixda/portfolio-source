@@ -115,11 +115,6 @@ class Home extends React.Component {
                         <div className="about">
                             Developer, shutterbug & collaborator
                         </div>
-                            <a href = "https://www.upwork.com/o/profiles/users/~01669d93df1bb5305b/?s=996364627857502209" className="hireme">
-                                <div className="hire">
-                                    Hire Me
-                                </div>
-                            </a>
                     </div>
                 </div>
                 <div className="right">
