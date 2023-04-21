@@ -129,11 +129,11 @@ class Home extends React.Component {
                                 </button>
                             </div>
                         </Link>
-                        <Link to="/about">
+                        <Link to="/education">
                             <div className="navbtn">
                                 <button className="button">
                                     <div className="nav">
-                                        ABOUT
+                                        EDUCATION
                                     </div>
                                 </button>
                             </div>

@@ -35,12 +35,12 @@ class Sidedrawer extends React.Component {
           </Link>
         </div>
         <div className="sb">
-          <Link to="/about">
+          <Link to="/education">
             <div className="navicon">
               <Icon icon={bookmarkIcon} />
             </div>
             <div className="mnav">
-              ABOUT
+              EDUCATION
             </div>
           </Link>
         </div>
