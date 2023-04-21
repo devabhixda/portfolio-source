@@ -69,7 +69,7 @@ class Contact extends Component {
                 {isPhone ?
                     <Mheader /> :
                     <div className="aheader">
-                        <a href="https://devabhi.tech">
+                        <a href="https://devabhi.netlify.app">
                             <img src={logo} className="logo" />
                         </a>
                     </div>

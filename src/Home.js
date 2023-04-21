@@ -101,7 +101,7 @@ class Home extends React.Component {
             <div>
                 <div className="left">
                     <div className="header">
-                        <a href="https://devabhi.codes">
+                        <a href="https://devabhi.netlify.app">
                             <img src={logo} className="logo" />
                         </a>
                     </div>

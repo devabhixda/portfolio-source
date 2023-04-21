@@ -44,7 +44,7 @@ class Work extends React.Component {
                 </div>
                 <div className="wbottom">
                 <div className="aheader">
-                <a href="https://devabhi.tech">
+                <a href="https://devabhi.netlify.app">
                   <img src={logo} className="logo" />
                 </a>
               </div>
@@ -71,7 +71,7 @@ class Work extends React.Component {
             <div>
               <img src={bg} className="wbackground" />
               <div className="aheader">
-                <a href="https://devabhi.tech">
+                <a href="https://devabhi.netlify.app">
                   <img src={logo} className="logo" />
                 </a>
               </div>
