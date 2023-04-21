@@ -41,6 +41,26 @@ class WorkEx extends React.Component {
                         </div>
                         <div className="bullets">
                             <img src={bullets} className="bullet" />
+                            <span className="course">SDE</span>
+                            <div className="insti">
+                                Fi
+                            </div>
+                            <div className="year">
+                                Jan 2023 - Present
+                            </div>
+                        </div>
+                        <div className="bullets">
+                            <img src={bullets} className="bullet" />
+                            <span className="course">SDE</span>
+                            <div className="insti">
+                                Amazon
+                            </div>
+                            <div className="year">
+                                July 2022 - Jan 2023
+                            </div>
+                        </div>
+                        <div className="bullets">
+                            <img src={bullets} className="bullet" />
                             <span className="course">SDE Intern</span>
                             <div className="insti">
                                 Amazon
@@ -61,32 +81,12 @@ class WorkEx extends React.Component {
                         </div>
                         <div className="bullets">
                             <img src={bullets} className="bullet" />
-                            <span className="course">Flutter Development Intern</span>
+                            <span className="course">Flutter Intern</span>
                             <div className="insti">
                                 RobotBanao
                             </div>
                             <div className="year">
                                 Feb 2021 - Mar 2021
-                            </div>
-                        </div>
-                        <div className="bullets">
-                            <img src={bullets} className="bullet" />
-                            <span className="course">FrontEnd Mobile Developer</span>
-                            <div className="insti">
-                                HanHas technology and Services
-                            </div>
-                            <div className="year">
-                                July 2019 - Sept 2019
-                            </div>
-                        </div>
-                        <div className="bullets">
-                            <img src={bullets} className="bullet" />
-                            <span className="course">FrontEnd Web Developer</span>
-                            <div className="insti">
-                                TechCoopers Software Solutions
-                            </div>
-                            <div className="year">
-                                May 2019 - June 2019
                             </div>
                         </div>
                     </div>
@@ -97,13 +97,33 @@ class WorkEx extends React.Component {
             <div>
                 <div className="wleft">
                     <div className="aheader">
-                        <a href="https://devabhi.tech">
+                        <a href="https://devabhi.netlify.app">
                             <img src={logo} className="logo" />
                         </a>
                     </div>
                     <img src={rects} className="rects" />
                     <div className="work">
                         Work
+                    </div>
+                    <div className="bts">
+                        <img src={bullets} className="bt" />
+                        <span className="title">SDE</span>
+                        <div className="pow">
+                            Fi
+                        </div>
+                        <div className="time">
+                            January 2023 - Present
+                        </div>
+                    </div>
+                    <div className="bts">
+                        <img src={bullets} className="bt" />
+                        <span className="title">SDE</span>
+                        <div className="pow">
+                            Amazon
+                        </div>
+                        <div className="time">
+                            July 2022 - January 2023
+                        </div>
                     </div>
                     <div className="bts">
                         <img src={bullets} className="bt" />
@@ -127,32 +147,12 @@ class WorkEx extends React.Component {
                     </div>
                     <div className="bts">
                         <img src={bullets} className="bt" />
-                        <span className="title">Flutter Development Intern</span>
+                        <span className="title">Flutter Intern</span>
                         <div className="pow">
                             RobotBanao
                         </div>
                         <div className="time">
                             February 2021 - March 2021
-                        </div>
-                    </div>
-                    <div className="bts">
-                        <img src={bullets} className="bt" />
-                        <span className="title">FrontEnd Mobile Developer</span>
-                        <div className="pow">
-                            Hanhas technology and services
-                        </div>
-                        <div className="time">
-                            July 2019 - September 2019
-                        </div>
-                    </div>
-                    <div className="bts">
-                        <img src={bullets} className="bt" />
-                        <span className="title">FrontEnd Web Developer</span>
-                        <div className="pow">
-                            TechCooper solutions
-                        </div>
-                        <div className="time">
-                            May 2019 - June 2019
                         </div>
                     </div>
                 </div>
