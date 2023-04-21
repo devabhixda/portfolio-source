@@ -45,7 +45,7 @@ class About extends React.Component {
                                 Shri G.S Intitute of Tech and Science, Indore
                         </div>
                             <div className="year">
-                                July 2018-Present
+                                July 2018 - June 2022
                         </div>
                         </div>
                         <div className="bullets">
@@ -76,7 +76,7 @@ class About extends React.Component {
             <div>
                 <div className="aleft">
                     <div className="aheader">
-                        <a href="https://devabhi.tech">
+                        <a href="https://devabhi.netlify.app">
                             <img src={logo} className="logo" />
                         </a>
                     </div>
@@ -93,7 +93,7 @@ class About extends React.Component {
                             Shri G.S Intitute of Tech and Science, Indore
                         </div>
                         <div className="year">
-                            July 2018-Present
+                            July 2018 - June 2022
                         </div>
                     </div>
                     <div className="bullets">
