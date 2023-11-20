@@ -41,7 +41,17 @@ class WorkEx extends React.Component {
                         </div>
                         <div className="bullets">
                             <img src={bullets} className="bullet" />
-                            <span className="course">SDE</span>
+                            <span className="course">SDE - Backend</span>
+                            <div className="insti">
+                                MDaq Global
+                            </div>
+                            <div className="year">
+                                July 2023 - Present
+                            </div>
+                        </div>
+                        <div className="bullets">
+                            <img src={bullets} className="bullet" />
+                            <span className="course">SDE - Android</span>
                             <div className="insti">
                                 Fi
                             </div>
@@ -79,16 +89,6 @@ class WorkEx extends React.Component {
                                 May 2021 - July 2021
                             </div>
                         </div>
-                        <div className="bullets">
-                            <img src={bullets} className="bullet" />
-                            <span className="course">Flutter Intern</span>
-                            <div className="insti">
-                                RobotBanao
-                            </div>
-                            <div className="year">
-                                Feb 2021 - Mar 2021
-                            </div>
-                        </div>
                     </div>
                 </div>
             )
@@ -107,12 +107,22 @@ class WorkEx extends React.Component {
                     </div>
                     <div className="bts">
                         <img src={bullets} className="bt" />
-                        <span className="title">SDE</span>
+                        <span className="title">SDE - Backend</span>
+                        <div className="pow">
+                            MDaq Global
+                        </div>
+                        <div className="time">
+                            July 2023 - Present
+                        </div>
+                    </div>
+                    <div className="bts">
+                        <img src={bullets} className="bt" />
+                        <span className="title">SDE - Android</span>
                         <div className="pow">
                             Fi
                         </div>
                         <div className="time">
-                            January 2023 - Present
+                            January 2023 - July 2023
                         </div>
                     </div>
                     <div className="bts">
@@ -143,16 +153,6 @@ class WorkEx extends React.Component {
                         </div>
                         <div className="time">
                             May 2021 - July 2021
-                        </div>
-                    </div>
-                    <div className="bts">
-                        <img src={bullets} className="bt" />
-                        <span className="title">Flutter Intern</span>
-                        <div className="pow">
-                            RobotBanao
-                        </div>
-                        <div className="time">
-                            February 2021 - March 2021
                         </div>
                     </div>
                 </div>
