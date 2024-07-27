@@ -5,7 +5,7 @@ import bullets from './images/bullets.svg';
 import './stylesheets/about.css';
 import Mheader from './Mheader';
 
-class About extends React.Component {
+class Education extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -42,31 +42,31 @@ class About extends React.Component {
                             <img src={bullets} className="bullet" />
                             <span className="course">B.Tech Computer Science</span>
                             <div className="insti">
-                                Shri G.S Intitute of Tech and Science, Indore
+                                San Jose State University, San Jose, CA
+                            </div>
+                            <div className="year">
+                                August 2024 - Present
+                            </div>
                         </div>
+                        <div className="bullets">
+                            <img src={bullets} className="bullet" />
+                            <span className="course">B.Tech Computer Science</span>
+                            <div className="insti">
+                                Shri G.S Intitute of Tech and Science, Indore, MP
+                            </div>
                             <div className="year">
                                 July 2018 - June 2022
-                        </div>
+                            </div>
                         </div>
                         <div className="bullets">
                             <img src={bullets} className="bullet" />
                             <span className="course">High School</span>
                             <div className="insti">
-                                Lotus International School, Bangred
-                        </div>
+                                Lotus International School, Bangred, MP
+                            </div>
                             <div className="year">
                                 2017
-                        </div>
-                        </div>
-                        <div className="bullets">
-                            <img src={bullets} className="bullet" />
-                            <span className="course">Middle School</span>
-                            <div className="insti">
-                                Advanced Academy, Indore
-                        </div>
-                            <div className="year">
-                                2015
-                        </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -88,9 +88,19 @@ class About extends React.Component {
                     </div>
                     <div className="bullets">
                         <img src={bullets} className="bullet" />
+                        <span className="course">Master of Computer Science</span>
+                        <div className="insti">
+                            San Jose State University, San Jose, CA
+                        </div>
+                        <div className="year">
+                            August 2024 - Present
+                        </div>
+                    </div>
+                    <div className="bullets">
+                        <img src={bullets} className="bullet" />
                         <span className="course">B.Tech Computer Science</span>
                         <div className="insti">
-                            Shri G.S Intitute of Tech and Science, Indore
+                            Shri G.S Intitute of Tech and Science, Indore, MP
                         </div>
                         <div className="year">
                             July 2018 - June 2022
@@ -100,20 +110,10 @@ class About extends React.Component {
                         <img src={bullets} className="bullet" />
                         <span className="course">High School</span>
                         <div className="insti">
-                            Lotus International School, Bangred
+                            Lotus International School, Bangred, MP
                         </div>
                         <div className="year">
                             2017
-                        </div>
-                    </div>
-                    <div className="bullets">
-                        <img src={bullets} className="bullet" />
-                        <span className="course">Middle School</span>
-                        <div className="insti">
-                            Advanced Academy, Indore
-                        </div>
-                        <div className="year">
-                            2015
                         </div>
                     </div>
                 </div>
@@ -121,4 +121,4 @@ class About extends React.Component {
         )
     }
 }
-export default About;
+export default Education;

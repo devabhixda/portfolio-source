@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashRouter as Router, Route } from "react-router-dom";
 import Home from './Home';
-import About from './About';
+import Education from './Education';
 import Work from './Work';
 import Contact from './Contact';
 import WorkEx from './WorkEx';
@@ -13,7 +13,7 @@ class App extends React.Component {
             <Router>
                 <div>
                     <Route path ="/" exact component={Home}/>
-                    <Route path ="/education" component={About}/>
+                    <Route path ="/education" component={Education}/>
                     <Route path ="/work" component={Work}/>
                     <Route path ="/workex" component={WorkEx}/> 
                     <Route path ="/projects" component={Projects}/>

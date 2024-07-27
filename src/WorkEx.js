@@ -41,19 +41,19 @@ class WorkEx extends React.Component {
                         </div>
                         <div className="bullets">
                             <img src={bullets} className="bullet" />
-                            <span className="course">SDE - Backend</span>
+                            <span className="course">Software Engineer</span>
                             <div className="insti">
                                 MDaq Global
                             </div>
                             <div className="year">
-                                July 2023 - Present
+                                July 2023 - July 2024
                             </div>
                         </div>
                         <div className="bullets">
                             <img src={bullets} className="bullet" />
-                            <span className="course">SDE - Android</span>
+                            <span className="course">Software Engineer</span>
                             <div className="insti">
-                                Fi
+                                Fi Money
                             </div>
                             <div className="year">
                                 Jan 2023 - Present
@@ -61,22 +61,12 @@ class WorkEx extends React.Component {
                         </div>
                         <div className="bullets">
                             <img src={bullets} className="bullet" />
-                            <span className="course">SDE</span>
+                            <span className="course">Software Dev Engineer</span>
                             <div className="insti">
                                 Amazon
                             </div>
                             <div className="year">
-                                July 2022 - Jan 2023
-                            </div>
-                        </div>
-                        <div className="bullets">
-                            <img src={bullets} className="bullet" />
-                            <span className="course">SDE Intern</span>
-                            <div className="insti">
-                                Amazon
-                            </div>
-                            <div className="year">
-                                Jan 2022 - June 2022
+                                Jan 2022 - Jan 2023
                             </div>
                         </div>
                         <div className="bullets">
@@ -107,19 +97,19 @@ class WorkEx extends React.Component {
                     </div>
                     <div className="bts">
                         <img src={bullets} className="bt" />
-                        <span className="title">SDE - Backend</span>
+                        <span className="title">Software Engineer</span>
                         <div className="pow">
                             MDaq Global
                         </div>
                         <div className="time">
-                            July 2023 - Present
+                            July 2023 - July 2024
                         </div>
                     </div>
                     <div className="bts">
                         <img src={bullets} className="bt" />
-                        <span className="title">SDE - Android</span>
+                        <span className="title">Software Engineer</span>
                         <div className="pow">
-                            Fi
+                            Fi Money
                         </div>
                         <div className="time">
                             January 2023 - July 2023
@@ -127,22 +117,12 @@ class WorkEx extends React.Component {
                     </div>
                     <div className="bts">
                         <img src={bullets} className="bt" />
-                        <span className="title">SDE</span>
+                        <span className="title">Software Dev Engineer</span>
                         <div className="pow">
                             Amazon
                         </div>
                         <div className="time">
-                            July 2022 - January 2023
-                        </div>
-                    </div>
-                    <div className="bts">
-                        <img src={bullets} className="bt" />
-                        <span className="title">SDE Intern</span>
-                        <div className="pow">
-                            Amazon
-                        </div>
-                        <div className="time">
-                            January 2022 - June 2022
+                            January 2022 - January 2023
                         </div>
                     </div>
                     <div className="bts">
